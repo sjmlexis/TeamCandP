@@ -1,0 +1,373 @@
+[
+  {
+    "description": "\tThis feature is regarding heroes stuff",
+    "keyword": "Feature",
+    "name": "Tour Of Heroes",
+    "line": 1,
+    "id": "tour-of-heroes",
+    "tags": [],
+    "uri": "TourOfHeroes.feature",
+    "elements": [
+      {
+        "id": "tour-of-heroes;the-user-is-on-the-dashboard-and-wants-to-view-the-top-4-heroes",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "The user is on the dashboard and wants to view the top 4 heroes",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user navigates to the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 485000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "a user is on the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the user will be able to view 4 heroes",
+            "result": {
+              "status": "passed",
+              "duration": 515000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tour-of-heroes;the-user-is-on-the-dashboard-and-wants-to-view-a-selected-heroes-detail-page",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "The user is on the dashboard and wants to view a selected heroes detail page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user navigates to the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "a user clicks on a hero",
+            "result": {
+              "status": "passed",
+              "duration": 600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user will be navigated to the hero details page.",
+            "result": {
+              "status": "passed",
+              "duration": 453000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tour-of-heroes;the-user-is-on-the-dashboard-and-want-to-see-amount-of-heroes",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "The user is on the dashboard and want to see amount of heroes",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user navigates to the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 158000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "the user navigates to the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the user clicks on the heroes button",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the user will be navigated to the heroes list page and views x amount of heroes",
+            "result": {
+              "status": "passed",
+              "duration": 459000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tour-of-heroes;the-user-is-on-the-dashboard-and-wants-to-remove-a-hero",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "The user is on the dashboard and wants to remove a hero",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user navigates to the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "the user navigates to the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 641000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "the user clicks on the heroes button",
+            "result": {
+              "status": "passed",
+              "duration": 87000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the user is on the heroes screen",
+            "result": {
+              "status": "passed",
+              "duration": 467000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "the user deletes a user",
+            "result": {
+              "status": "passed",
+              "duration": 610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the list is shorter than started",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tour-of-heroes;the-user-is-on-the-dashboard-and-wants-to-add-a-hero",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "The user is on the dashboard and wants to add a hero",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user navigates to the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "the user navigates to the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 552000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "the user clicks on the heroes button",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the user is on the heroes screen",
+            "result": {
+              "status": "passed",
+              "duration": 459000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the user fills in a name in the hero name field",
+            "result": {
+              "status": "passed",
+              "duration": 409000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "the user clicks the add button",
+            "result": {
+              "status": "passed",
+              "duration": 1093000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the list is longer than when started",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tour-of-heroes;the-user-is-on-the-dashboard-and-wants-to-add-a-blank-hero",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "The user is on the dashboard and wants to add a blank hero",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user navigates to the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "the user navigates to the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 618000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "the user clicks on the heroes button",
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "the user is on the heroes screen",
+            "result": {
+              "status": "passed",
+              "duration": 450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "the user fills in a blank in the hero name field",
+            "result": {
+              "status": "passed",
+              "duration": 157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "the user clicks the add button",
+            "result": {
+              "status": "passed",
+              "duration": 1093000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "the list is longer than when started",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

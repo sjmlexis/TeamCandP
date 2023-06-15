@@ -1,0 +1,43 @@
+[
+  {
+    "description": "    This Feature tests login scenarios",
+    "keyword": "Feature",
+    "name": "LandingPage Functionality",
+    "line": 1,
+    "id": "landingpage-functionality",
+    "tags": [],
+    "uri": "LandingPage.feature",
+    "elements": [
+      {
+        "id": "landingpage-functionality;as-a-toh-user,-i-want-to-navigate-to-landingpage-in-order-to-see-the-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a toh user, I want to navigate to landingpage in order to see the dashboard",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 2201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user shall see the employee dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
